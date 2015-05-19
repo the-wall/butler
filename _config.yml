@@ -1,0 +1,53 @@
+title:               The Wall
+
+# site url without a trailing '/'
+# i.e. http://www.example.com
+url:                 http://the-wall.github.io
+
+# baseurl without a trailing '/'
+# i.e. /my_project or leave it blank ''
+baseurl:             ''
+description:         Jekyll butler
+
+paginate_path:       /blog/page/:num/
+paginate:            15
+
+permalink:           /blog/:title/
+
+author:
+  name:              Your Name
+  # Plain email or encoded email (http://ctrlq.org/encode/)
+  email:             hello@example.com
+  docker:
+    username:        harshjv
+    link:            https://hub.docker.com/u/harshjv
+  stackexchange:
+    link:            http://stackexchange.com/users/1961153/harshjv
+  google_plus:
+    username:        HarshVakhariaJ
+    link:            https://plus.google.com/+HarshVakhariaJ
+  linkedin:
+    username:        harshjv
+    link:            http://in.linkedin.com/in/harshjv
+  twitter:
+    username:        harshjv
+    link:            https://twitter.com/harshjv
+  github:
+    username:        harshjv
+    link:            https://github.com/harshjv
+
+disqus:
+  shortname:         your_disqus_short_name
+
+# your analytics id
+google_analytics:
+  id:                UA-XXXXXXXX-X
+
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+the_wall:
+  link:              https://github.com/the-wall/butler
+
+exclude:             [vendor]
